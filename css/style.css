@@ -11,3 +11,48 @@ img
 {
     width: 100%;
 }
+
+a
+{
+    text-decoration: none;
+}
+
+/* HEADER */
+header
+{
+    background-color: black;
+    height: 80px;
+    position: relative;
+}
+
+header>div
+{
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.speaker-view, .expand-arrows
+{
+    background-color: rgba(74, 74, 74, 0.678);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* MAIN */
+main
+{
+    height: calc( 100vh - 180px );
+
+    /* test */
+    background-color: lightgreen;
+}
+
+/* FOOTER */
+footer
+{
+    /* test */
+    background-color: bisque;
+    height: 100px;
+}
