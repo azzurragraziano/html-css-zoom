@@ -32,7 +32,7 @@ header>div
     right: 5px;
 }
 
-.speaker-view, .expand-arrows
+.bg-gray
 {
     background-color: rgba(74, 74, 74, 0.678);
     color: white;
@@ -44,9 +44,34 @@ header>div
 main
 {
     height: calc( 100vh - 180px );
-
+    overflow-y: auto;
     /* test */
-    background-color: lightgreen;
+    background-color: black;
+}
+
+.card-container
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card
+{
+    width: calc( 90% / 7 );
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.user-name
+{
+    position: absolute;
+    color: white;
+    bottom: 4px;
+    left: 0;
+    background-color: rgba(74, 74, 74, 0.678);
 }
 
 /* FOOTER */
